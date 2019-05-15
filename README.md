@@ -1,2 +1,3 @@
-# circuit_playground_examples
-A collection of examples of things you can do with the Circuit Playground Express using Circuit Python
+# Circuit Playground Express Examples
+
+This repository is a place where examples of what you can do with the Circuit Playground Express.  This assumes the usages of 

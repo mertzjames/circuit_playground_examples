@@ -27,3 +27,16 @@ screen /dev/tty.usbmodem* 115200
 ```
 
 where `*` is replaced by a series of numbers associated with the board.  If you use the tab completions this should automatically fill in those numbers for you.
+
+
+Intro outline:
+
+* Overview: what the board is and what all there is to it
+* Connecting to your board
+    * Connecting to view the contents
+    * Connecting to the output (serial connection)
+* Coding for your board
+    * Getting vscode and setting up your workspace
+    * Deploying code
+* Where to go next: Get them to look at the examples
+* Common issues
