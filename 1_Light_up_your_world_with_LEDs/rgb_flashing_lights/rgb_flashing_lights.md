@@ -2,8 +2,9 @@
 
 In this exercise, you'll learn how to get your CPE board to automatically change colors from Red, Green, and Blue every 0.5 seconds.  You will also learn about the following programming, Python, and other concepts:
 
-* Tuples
+* The NeoPixel LED
 * Color scales using RGB
+* Tuples
 * Infinite loops
 * The "modulo" or "mod" (`%`) operator
 
@@ -11,10 +12,16 @@ In this exercise, you'll learn how to get your CPE board to automatically change
 
 In this exercise you'll need the following:
 
-* The CPE board, connected to your computer
+* The CPX board, connected to your computer
 * VsCode (or your fav editor) open with the `code.py` file open
 
-# Tuples
+## Key Concepts
+
+### The NeoPixel LED
+
+### Color Scales Using RGB
+
+### Tuples
 
 In Python (and some other programming) languages, tuples are used as a way to store a sequence of objects.  What makes tuples unique from other sequences, is that once they are defined, they are immutable, or they cannot be changed.  To create a tuple in Python, you assign a variable a set of objects separated by a comma (`,`):
 
@@ -30,12 +37,9 @@ my_first_tuple = (1, 2, 3)
 my_first_tuple
 ```
 
-## Color Scales Using RGB
+### Infinite Loops
 
-
-## Infinite Loops
-
-## The "Modulo" or "Mod" (`%`) Operator
+### The "Modulo" or "Mod" (`%`) Operator
 
 ## Putting It All Together
 
