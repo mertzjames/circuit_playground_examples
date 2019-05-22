@@ -14,7 +14,7 @@ There will also be a list of "Common Issues" that I've come across while using t
 
 The CPX board comes with all sorts of inputs (such as sensors) and outputs (such as LED's) and other parts.  Let's take a look at a labeled version of your board:
 
-![Labeled CPX Board Courtesy of adafruit](images/circuit_playground_express-labeled.jpg)
+[![Labeled CPX Board Courtesy of adafruit](images/circuit_playground_express-labeled.jpg)](https://learn.adafruit.com/assets/46973)
 
 Don't worry if some (or even all) of the things on this image don't make sense.  When you go through the examples, each of these will be explained in more detail in the examples.
 
@@ -40,6 +40,13 @@ Don't worry if some (or even all) of the things on this image don't make sense. 
 | JST Battery Connector      | Power                     | This provides power to the CPX.  When the USB cable is connected, this can or cannot be connected.       |
 
 As you can see, there are a lot of parts that you can access on this board.  As you go through the examples in this repository, you'll be able to learn how to use each of them, and towards the end how to use multiple ones!
+
+## Setting Up Your IDE Environment
+
+I reccomend that you use [vscode](https://code.visualstudio.com/) with the [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installed.
+
+* Install Python3 (anaconda)
+* Viewing the terminal
 
 ## How to connect to your CPX Board
 
