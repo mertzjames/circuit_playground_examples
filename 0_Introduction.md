@@ -37,15 +37,21 @@ Don't worry if some (or even all) of the things on this image don't make sense. 
 | Slide Switch               | Input                     | A simple switch that toggles from side to side                                                           |
 | Microphone                 | Input (Audio)             | A small microphone that can be used to detect certains levels of sound                                   |
 | Analog Output (A0 or AO)   | Output                    | A special connection pad that outputs analog voltages                                                    |
-| JST Battery Connector      | Power                     | This provides power to the CPX.  When the USB cable is connected, this can or cannot be connected.        |
+| JST Battery Connector      | Power                     | This provides power to the CPX.  When the USB cable is connected, this can or cannot be connected.       |
 
 As you can see, there are a lot of parts that you can access on this board.  As you go through the examples in this repository, you'll be able to learn how to use each of them, and towards the end how to use multiple ones!
 
 ## How to connect to your CPX Board
 
+TODO: Make this more of a list form and add pictures
+
 Connecting to your CPE board is as simple as plugging it in to the USB port.  Using a USB-A to micro-USB cable, plug the USB-A side into the computer and the micro-USB side into the CPE board.  Once you've done that, the board should appear similar to that of a flash drive with the name "CIRCUITPY".  If this isn't working confirm that you've got the cables properly seated and that the cable you're using is a data cable and not a power only cable.  If it still doesn't work, you may need to re-install Circuit Python (TODO: Add reference to Circuit Python installation).  If you're running a version of Windows before 10, you'll need to install additional drivers.
 
-## Getting the Python Libraries
+## The Structure of the Filesystem and `code.py`
+
+TODO: Overview of what is in the filesystem for the CPX and the key elements of `code.py`
+
+## Getting Additional Python Libraries
 
 TODO: I still haven't worked this out.  It needs updating.
 
@@ -57,7 +63,7 @@ Adafruit CircuitPython 4.0.0-beta.7 on 2019-04-13; Adafruit CircuitPlayground Ex
 
 Use this to determine which version is installed on the device.  In the case above, 4.x is installed.  Next, navigate to https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases and download the associated version.  In this case it would be `adafruit-circuitpython-bundle-4.x-mpy-YYYYMMDD.zip` where `YYYYMMDD` would be the most recent date release for the 4.x version.
 
-Once you've downloaded that `.zip` file, you can extract it and then use that to reference your Python libs.
+Once you've downloaded that `.zip` file, extract it and look for the `adafruit_circuitplayground` folder, and copy that into the a `lib` folder on your `CIRCUITPY` device.
 
 ## Connecting to the serial output
 
