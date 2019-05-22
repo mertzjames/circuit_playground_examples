@@ -14,7 +14,7 @@ There will also be a list of "Common Issues" that I've come across while using t
 
 The CPX board comes with all sorts of inputs (such as sensors) and outputs (such as LED's) and other parts.  Let's take a look at a labeled version of your board:
 
-[![Labeled CPX Board Courtesy of adafruit](images/circuit_playground_express-labeled.jpg)](https://learn.adafruit.com/assets/46973)
+[![Labeled CPX Board Courtesy of adafruit](/images/circuit_playground_express-labeled.jpg)](https://learn.adafruit.com/assets/46973)
 
 Don't worry if some (or even all) of the things on this image don't make sense.  When you go through the examples, each of these will be explained in more detail in the examples.
 

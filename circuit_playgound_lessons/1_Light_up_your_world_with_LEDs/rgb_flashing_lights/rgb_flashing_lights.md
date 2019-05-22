@@ -1,6 +1,6 @@
 # RGB Flashing Lights
 
-In this exercise, you'll learn how to get your CPE board to automatically change colors from Red, Green, and Blue every 0.5 seconds.  You will also learn about the following programming, Python, and other concepts:
+In this exercise, you'll learn how to get your CPX board to automatically change colors from Red, Green, and Blue every 0.5 seconds.  You will also learn about the following CPX Hardware, Python, and other concepts:
 
 * The NeoPixel LED
 * Color scales using RGB
@@ -18,9 +18,13 @@ In this exercise you'll need the following:
 
 ### Color Scales Using RGB
 
-Since the NeoPixel uses the Red, Green, Blue LED's to create different colors, you should learn how to create different colors using the RGB color model.  The RGB color model consists of defining three number values ranging from 0 to 255 as an intensity for the three colors.  The first number is always Red, the second Green, and the third Blue.  
+Since the NeoPixel uses the Red, Green, Blue LED's to create different colors, you should learn how to create different colors using the RGB color model.  The RGB color model consists of defining three number values ranging from 0 to 255 as an intensity for the three colors.  The first number is always Red, the second Green, and the third Blue.
 
-Lets say you have an RGB value of 0, 0, 255 that would mean that the intensity of Blue is full and the other two colors is 0.  This means that the color shown is Blue!  The same goes for Red (255, 0, 0) and Green (0, 255, 0).  You can combine the intensities of different colors to generate another color!  255, 255, 0 would produce Yellow for example.  With these combination there is 255 * 255 * 255 or 16,581,375 different colors!  If you want to play around with the different values and see what they produce, checkout [this online RGB Color Tool](https://www.rapidtables.com/web/color/RGB_Color.html).
+Lets say you have an RGB value of 0, 0, 255 that would mean that the intensity of Blue is full and the other two colors is 0.  This means that the color shown is Blue!  The same goes for Red (255, 0, 0) and Green (0, 255, 0).  You can combine the intensities of different colors to generate another color!  255, 255, 0 would produce Yellow for example.  
+
+[![RGB Additive Color](/images/AdditiveColor.svg.png)](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/AdditiveColor.svg/1920px-AdditiveColor.svg.png)
+
+With these combination there is 255 * 255 * 255 or 16,581,375 different colors!  If you want to play around with the different values and see what they produce, checkout [this online RGB Color Tool](https://www.rapidtables.com/web/color/RGB_Color.html).
 
 ### Tuples
 
@@ -69,7 +73,7 @@ TypeError: 'tuple' object does not support item assignment
 
 The NeoPixel LED is a simple output device that is used to create lighted colors on your CPX board.  These LEDs are actually 3 LEDs in one!
 
-[![Neopixel LED with RGB color LEDs courtesy of adafruit](../../../images/led_strips_single-neopixel.jpg)](https://blog.adafruit.com/2017/12/12/neopixels-five-years-in-adafruit-neopixels/)
+[![Neopixel LED with RGB color LEDs courtesy of adafruit](/images/led_strips_single-neopixel.jpg)](https://blog.adafruit.com/2017/12/12/neopixels-five-years-in-adafruit-neopixels/)
 
 There are three colored LEDs that make up this NeoPixel; Red, Green, and Blue (RGB).  By combining various combinations of these LEDs, the Neopixel is able to provide a wide range of different colors.
 
@@ -91,7 +95,7 @@ cpx.pixels[0] = (0, 255, 0)
 
 Each of the NeoPixel is accessed like the tuple by indexing.  Here is an overview of which index matches to the actual NeoPixel:
 
-![NeoPixel Indexing](../../../images/Circuit-Playground-Express-LED-Numbered.png)
+![NeoPixel Indexing](/images/Circuit-Playground-Express-LED-Numbered.png)
 
 ### The "Modulo" or "Mod" (`%`) Operator
 
@@ -124,7 +128,7 @@ If you said that all NexPixels will forever change color every 0.5 seconds, rota
 
 ## Make It Your Own
 
-Now that you've gotten an idea of how to change the NeoPixels, are there other colors that you would like to display?  Try playing around with the different colors and add them to the `COLORS` tuple.  
+Now that you've gotten an idea of how to change the NeoPixels, are there other colors that you would like to display?  Try playing around with the different colors and add them to the `COLORS` tuple.  Once you get that down, try making changes to individual NeoPixels.
 
 ## What Next
 
