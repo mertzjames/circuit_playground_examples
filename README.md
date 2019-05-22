@@ -4,7 +4,7 @@ This repository is a collection of lessons that showcase some of the things you 
 
 ## Where To Get Started
 
-If you're brand new to the CPX board, then read through the [Introduction](circuit_playground_lessons/0_Introduction.md).  Otherwise, you should start with the first lesson
+If you're brand new to the CPX board, then read through the [Introduction](circuit_playgound_lessons/0_Introduction.md).  Otherwise, you should start with the first lesson
 
 ## Lesson Structure
 
