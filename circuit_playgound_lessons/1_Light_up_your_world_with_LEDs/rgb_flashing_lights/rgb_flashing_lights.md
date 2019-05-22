@@ -69,7 +69,7 @@ TypeError: 'tuple' object does not support item assignment
 
 The NeoPixel LED is a simple output device that is used to create lighted colors on your CPX board.  These LEDs are actually 3 LEDs in one!
 
-[![Neopixel LED with RGB color LEDs courtesy of adafruit](../../images/led_strips_single-neopixel.jpg)](https://blog.adafruit.com/2017/12/12/neopixels-five-years-in-adafruit-neopixels/)
+[![Neopixel LED with RGB color LEDs courtesy of adafruit](../../../images/led_strips_single-neopixel.jpg)](https://blog.adafruit.com/2017/12/12/neopixels-five-years-in-adafruit-neopixels/)
 
 There are three colored LEDs that make up this NeoPixel; Red, Green, and Blue (RGB).  By combining various combinations of these LEDs, the Neopixel is able to provide a wide range of different colors.
 
@@ -86,8 +86,12 @@ You can also index into an individual pixel and change its color:
 
 ```python
 # Fill the first pixel with Green
-cpx.pixels[0].fill((0, 255, 0))
+cpx.pixels[0] = (0, 255, 0)
 ```
+
+Each of the NeoPixel is accessed like the tuple by indexing.  Here is an overview of which index matches to the actual NeoPixel:
+
+![NeoPixel Indexing](../../../images/Circuit-Playground-Express-LED-Numbered.png)
 
 ### The "Modulo" or "Mod" (`%`) Operator
 
