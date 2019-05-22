@@ -4,14 +4,12 @@ import time
 import microcontroller
 from adafruit_circuitplayground.express import cpx
 
-FULL = 255
-
-BLUE_FULL = (0, 0, FULL)
-BLUE_THREE_QUARTER = (0, 0, int(FULL * 0.75))
-BLUE_TWO_THIRD = (0, 0, int(FULL * 0.66))
-BLUE_HALF = (0, 0, int(FULL * 0.5))
-BLUE_THIRD = (0, 0, int(FULL * 0.33))
-BLUE_QUART = (0, 0, int(FULL * 0.25))
+BLUE_FULL = (0, 102, 204)
+BLUE_THREE_QUARTER = (0, 128, 255)
+BLUE_TWO_THIRD = (51, 153, 255)
+BLUE_HALF = (102, 175, 255)
+BLUE_THIRD = (153, 204, 255)
+BLUE_QUART = (204, 229, 255)
 
 NO_COLOR = (0, 0, 0)
 

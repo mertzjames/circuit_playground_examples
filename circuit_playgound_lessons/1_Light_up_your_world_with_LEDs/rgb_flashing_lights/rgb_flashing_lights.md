@@ -118,6 +118,12 @@ Go ahead and open up [`code.py`](code.py) associated with this exercise and take
 
 If you said that all NexPixels will forever change color every 0.5 seconds, rotating between Red, Green, and Blue, then you got it!  To get this working on your board, copy and paste into the `code.py` on your CPE board.
 
+## Make It Your Own
+
+Now that you've gotten an idea of how to change the NeoPixels, are there other colors that you would like to display?  Try playing around with the different colors and add them to the `COLORS` tuple.  
+
+## What Next
+
 ## Troubleshooting
 
 If you run into a problem, feel free to create a github issue.
