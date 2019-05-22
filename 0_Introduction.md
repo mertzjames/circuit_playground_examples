@@ -86,4 +86,6 @@ where `*` is replaced by a series of numbers associated with the board.  If you 
 
 ## Where to Go Next
 
+[RGB Flashing Lights](1_Light_up_your_world_with_LEDs/rgb_flashing_lights/rgb_flashing_lights.md)
+
 ## Common Issues
