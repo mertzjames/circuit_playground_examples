@@ -86,6 +86,6 @@ where `*` is replaced by a series of numbers associated with the board.  If you 
 
 ## Where to Go Next
 
-Feel free to browse [all the lessons](circuit_playground_lessons/) or get started with the first lesson: [RGB Flashing Lights](circuit_playground_lessons/1_Light_up_your_world_with_LEDs/rgb_flashing_lights/rgb_flashing_lights.md).
+Feel free to browse [all the lessons](/) or get started with the first lesson: [RGB Flashing Lights](/1_Light_up_your_world_with_LEDs/rgb_flashing_lights/rgb_flashing_lights.md).
 
 ## Common Issues
