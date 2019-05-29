@@ -1,5 +1,9 @@
 # Circuit Playground Express Learning
 
+![Circuit Playground Express Learning Logo](images/CPX_Learn_Logo.png)
+
+<sup>*Logo created at LogoMakr.com*</sup>
+
 This repository is a collection of lessons that showcase some of the things you can do with the Circuit Playground Express (CPX) while teaching you basic concepts of programming and hardware interactions.  This assumes the usage of the Circuit Playground Express (CPX) board, specifcially the one given during PyCon 2019.
 
 ## Where To Get Started
