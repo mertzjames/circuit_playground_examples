@@ -8,14 +8,20 @@ There are various ways that you can contribute to this project, ranging from cre
 
 ### Creating New Lessons
 
-* Fork the project
-* Setting up your dev environment
-* Create the lesson
-* Lesson Structure
-* Create PR
-* Wait for Review
-* Update any requested changes
-* Merge
+Creating a new lesson is a pretty simple process.  
+
+1. Select a new lesson from the suggestions
+2. Fork the project from the Master branch
+3. Make sure your dev environment is setup
+4. Create the lesson
+5. Create a Pull Request against the Master branch
+6. Wait for Review
+7. Update any requested changes
+8. Merge
+
+#### Lessons structure
+
+Lessons are based on the types of sensors or output devices being used.  Any lesson that uses multiple of these sensors or devices should be placed in the `Advanced_Lessons` folder.  The only exception to this will be when combining a sensor or device and the LEDs.
 
 ### Testing Out the Lessons and Leaving Feedback
 

@@ -43,16 +43,15 @@ As you can see, there are a lot of parts that you can access on this board.  As 
 
 ## Setting Up Your IDE Environment
 
-I reccomend that you use [vscode](https://code.visualstudio.com/) with the [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installed.
-
-* Install Python3 (anaconda)
-* Viewing the terminal
+I recommend that you use [vscode](https://code.visualstudio.com/) with the [Microsoft Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) and the [Microsoft Arduino extension](https://marketplace.visualstudio.com/items?itemName=vsciot-vscode.vscode-arduino).  You should also have Python 3 installed.  You can get this from the [Python.org website](https://www.python.org/downloads/) but I recommend that you get the [Anaconda Python distribution](https://www.anaconda.com/distribution/#download-section) instead.
 
 ## How to connect to your CPX Board
 
-TODO: Make this more of a list form and add pictures
+Connecting to your CPE board is as simple as plugging it in to the USB port.  Using a USB-A to micro-USB cable, plug the USB-A side into the computer and the micro-USB side into the CPE board.  Once you've done that, the board should appear similar to that of a flash drive with the name "CIRCUITPY".  
 
-Connecting to your CPE board is as simple as plugging it in to the USB port.  Using a USB-A to micro-USB cable, plug the USB-A side into the computer and the micro-USB side into the CPE board.  Once you've done that, the board should appear similar to that of a flash drive with the name "CIRCUITPY".  If this isn't working confirm that you've got the cables properly seated and that the cable you're using is a data cable and not a power only cable.  If it still doesn't work, you may need to re-install Circuit Python (TODO: Add reference to Circuit Python installation).  If you're running a version of Windows before 10, you'll need to install additional drivers.
+![CIRCUITPY drive on Mac](/images/circuitpy_on_mac.png)
+
+If this isn't working confirm that you've got the cables properly seated and that the cable you're using is a data cable and not a power only cable.  If it still doesn't work, you may need to re-install Circuit Python (TODO: Add reference to Circuit Python installation).  If you're running a version of Windows before 10, you'll need to [install additional drivers](https://learn.adafruit.com/adafruit-circuit-playground-express/adafruit2-windows-driver-installation).
 
 ## The Structure of the Filesystem and `code.py`
 
